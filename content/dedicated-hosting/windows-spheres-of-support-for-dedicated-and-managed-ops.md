@@ -130,28 +130,28 @@ The following types of database servers are supported in the indicated areas:
 
 ## Supported Platforms for Microsoft SQL licenses
 
-| Licensing                    | Managed Colo | Managed | Intensive | Managed Operations (Cloud) | Navigator (AWS) | Aviator (AWS) | Navigator (Azure) | Navigator (Azure) |
-|------------------------------|--------------|---------|-----------|----------------------------|-----------------|---------------|-------------------|-------------------|
-| Rackspace owned licenses     | Yes*         | Yes     | Yes       | Yes                        |                 |               |                   |                   |
-| Customer provided licenses   | Yes          | Yes     | Yes       |                            | Yes             | Yes           | Yes               | Yes               |
-| AWS image library licenses   |              |         |           |                            | Yes             | Yes           |                   |                   |
-| AWS RDS                      |              |         |           |                            | Yes             | Yes           |                   |                   |
-| Azure image library licenses |              |         |           |                            |                 |               | Yes               | Yes               |
-| Azure SQL Database           |              |         |           |                            |                 |               | Yes               | Yes               |
+| Licensing                    | Managed Colo | Managed | Intensive | Managed Operations (Cloud) | Navigator (AWS) | Aviator (AWS) | Navigator (Azure) | Aviator (Azure) |
+|------------------------------|--------------|---------|-----------|----------------------------|-----------------|---------------|-------------------|-----------------|
+| Rackspace owned licenses     | Yes*         | Yes     | Yes       | Yes                        |                 |               |                   |                 |
+| Customer provided licenses   | Yes          | Yes     | Yes       |                            | Yes             | Yes           | Yes               | Yes             |
+| AWS image library licenses   |              |         |           |                            | Yes             | Yes           |                   |                 |
+| AWS RDS                      |              |         |           |                            | Yes             | Yes           |                   |                 |
+| Azure image library licenses |              |         |           |                            |                 |               | Yes               | Yes             |
+| Azure SQL Database           |              |         |           |                            |                 |               | Yes               | Yes             |
 
 **Note**: Licensing is limited to bare metal servers and Enterprise edition on hypervisors only.
 
 
 ## Supported Platforms for Microsoft SQL installation
 
-| Support                      | Managed Colo | Managed | Intensive | Managed Operations (Cloud) | Navigator (FAWS) | Aviator (FAWS) | Navigator (Azure) | Navigator (Azure) |
-|------------------------------|--------------|---------|-----------|----------------------------|------------------|----------------|-------------------|-------------------|
-| Rackspace owned licenses     | *            | Yes**   | Yes**     | Yes                        |                  |                |                   |                   |
-| Customer provided licenses   | *            | Yes**   | Yes**     |                            |                  | Yes            |                   | Yes               |
-| AWS image library licenses   |              |         |           |                            | Yes*             | Yes            |                   |                   |
-| AWS RDS                      |              |         |           |                            | Yes*             | Yes            |                   |                   |
-| Azure image library licenses |              |         |           |                            |                  |                | Yes*              | Yes               |
-| Azure SQL Database           |              |         |           |                            |                  |                | Yes*              | Yes               |
+| Support                      | Managed Colo | Managed | Intensive | Managed Operations (Cloud) | Navigator (FAWS) | Aviator (FAWS) | Navigator (Azure) | Aviator (Azure)  |
+|------------------------------|--------------|---------|-----------|----------------------------|------------------|----------------|-------------------|------------------|
+| Rackspace owned licenses     | *            | Yes**   | Yes**     | Yes                        |                  |                |                   |                  |
+| Customer provided licenses   | *            | Yes**   | Yes**     |                            |                  | Yes            |                   | Yes              |
+| AWS image library licenses   |              |         |           |                            | Yes              | Yes            |                   |                  |
+| AWS RDS                      |              |         |           |                            | Yes              | Yes            |                   |                  |
+| Azure image library licenses |              |         |           |                            |                  |                | Yes*              | Yes*             |
+| Azure SQL Database           |              |         |           |                            |                  |                | Yes*              | Yes*             |
 
 **Note**: * Support is available with DBAssist Hourly Services only.
 **Note**: ** Not supported on Unmanaged VMs except for DBAssist Hourly Services
