@@ -86,7 +86,7 @@ The following types of web servers are supported in the indicated areas:
 
 ### Additional products and services
 
-| Feature/Operation                             | Installation | Configuration | Troubleshooting |
+| Feature/Operation                               | Installation | Configuration | Troubleshooting |
 |-------------------------------------------------|--------------|---------------|-----------------|
 | Microsoft Exchange                              | Yes          | Yes           | Yes             |
 | Microsoft Sharepoint                            | Yes          |               |                 |
@@ -96,7 +96,7 @@ The following types of web servers are supported in the indicated areas:
 | Microsoft SQL                                   | Yes          | Yes           | Yes             |
 | Rackspace Managed Antivirus                     | Yes          | Yes           | Yes             |
 | Rackspace Managed Backup                        | Yes          | Yes           | Yes             |
-| Racksapce Windows Server Update Services (WSUS) | Yes          |               |                 |
+| Rackspace Windows Server Update Services (WSUS) | Yes          | Yes           | Yes             |
 
 **Note**: Additional Rackspace licensing and service agreements required.
 
