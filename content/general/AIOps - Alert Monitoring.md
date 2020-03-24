@@ -41,7 +41,7 @@ MyRacksapce RNS notifications and Alert Tickets
 
 ### Situation ticket information
 
-Alert grouping logic checks the alerts for applicable situation groups. Situations are created for single alerts or multiple alerts When an alert is correlated to an event with other alerts from the same deveice or additional reated devices.
+Alert grouping logic checks the alerts for applicable situation groups. Situations are created for single alerts or multiple alerts When an alert is correlated to an event with other alerts from the same device or additional realted devices.
 
 |	Group	|	Situation Name	|	Notes	|
 |-----------|-------------------|-----------|
@@ -160,4 +160,4 @@ Thanks,
 Rackspace Hosting US: 888-480-7640 | UK: +44 (0)20 8734 2700
 
 ### Correlating an alert to a situation
-The alert "SENSOR ID" can used by a Racker to lookup the corrponding situation ticket.
+The alert "SENSOR ID" can used by a Racker to lookup the corresponding situation ticket.
