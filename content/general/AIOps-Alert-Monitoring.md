@@ -67,7 +67,7 @@ Alert grouping logic checks the alerts for applicable situation groups. Situatio
 
  <img src="{% asset_path general/aiops-alert-monitoring/tickets.png %}" />
 
-SITUATION XXX186:Remaining identical alerts
+**SITUATION XXX186:Remaining identical alerts**
  
 Details
 Severity Urgent
@@ -107,8 +107,8 @@ Rackspace Hosting
 
 <img src="{% asset_path general/aiops-alert-monitoring/notications.png %}" />
 
-ALERT:OPSMGR:XXXXXX-mon2.url.com:Total CPU Utilization Percentage is too high
-XXXXXX (device number) - XXXXXX-mon2.url.com - Account Name
+**ALERT:OPSMGR:XXXXXX-mon2.url.com:Total CPU Utilization Percentage is too high
+XXXXXX (device number) - XXXXXX-mon2.url.com - Account Name**
 
 Thursday, November 7th
 
