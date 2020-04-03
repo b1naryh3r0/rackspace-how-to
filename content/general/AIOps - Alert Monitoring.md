@@ -45,21 +45,20 @@ Alert grouping logic checks the alerts for applicable situation groups. Situatio
 
 |	Group	|	Situation Name	|	Notes	|
 |-----------|-------------------|-----------|
-|	​RS Situation - Infrastructure	|	Situation for Data Center	|	Data Center	|
-|	​RS Situation - Infrastructure	|	Situation for devices located together DC	|	Physical Location	|
-|	RS Situation - Account level	|	Situation for custom monitor alerts per tenant	|	Custom Monitors	|
-|	RS Situation - Account level	|	Situation for custom monitoring device alerts per tenant	|	Custom Monitoring Device	|
-|	RS Situation - Account level	|	Situation for generic alerts per tenant	|	Generic	|
-|	RS Situation - Multidevice	|	Situation for associated devices	|	Associated Devices	|
-|	RS Situation - Multidevice	|	Situation for clustered devices	|	Clustered Devices	|
-|	RS Situation - Multidevice	|	Situation for ping associated alerts	|	Ping Associations	|
-|	RS Situation - Multidevice	|	URL-Port-Ping failures and connected device alerts from	|	Remote Monitors	|
-|	RS Situation - Device level	|	Alerts with the same classification (type)	|	Classification	|
-|	RS Situation - Device level	|	Alerts with similar descriptions	|	Description	|
-|	RS Situation - Device level	|	Alerts with similar names	|	Name	|
-|	RS Situation - Device level	|	Situation for performance and capacity alert per device	|	Performance Capacity	|
-|	RS Situation - Device level	|	MBU alert grouping	|	MBU	|
-|	RS Situation - Device level	|	Remaining identical alerts	|	Alert	|
+|	​RS Situation - Infrastructure	|	Situation for Data Center	|		Group alerts together across multiple accounts based on a common data center level issue.	|
+|	​RS Situation - Infrastructure	|	Situation for devices located together DC	|	Group alerts together across multiple accounts based on a common cabinet and row level issue.	|	Groups account-unique custom monitoring alerts from the same account together.	|
+|	RS Situation - Account level	|	Situation for custom monitoring device alerts per tenant	|	Groups alerts originating from a common "Custom Monitoring Device" type device together.	|
+|	RS Situation - Account level	|	Situation for generic alerts per tenant	|	Groups alerts together based on the monitoring agent declaring it as "generic".	|
+|	RS Situation - Multidevice	|	Situation for associated devices	|	Groups alerts of the same class (ie. Availability, Hardware, Capacity, Performance, etc.) together based on the alert's origin device have common connected devices as those of another alert.	|
+|	RS Situation - Multidevice	|	Situation for clustered devices	|	Groups alerts together with common cluster devices.	|
+|	RS Situation - Multidevice	|	Situation for ping associated alerts	|	Groups "ping" alerts from within the same account together.	|
+|	RS Situation - Multidevice	|	URL-Port-Ping failures and connected device alerts from	|	Groups "Rackspace Monitoring" availability monitoring alerts from within the same account together.	|
+|	RS Situation - Device level	|	Alerts with the same classification (type)	|	Groups alerts of the same type (ie. "RS Alert - Cluster", "RS Alert - SQL", "RS Alert - AD", etc.) originating from the same device together.	|
+|	RS Situation - Device level	|	Alerts with similar descriptions	|	Groups alerts with similar descriptions (ie. "Local file system [PATH] is not available", "The [DRIVE_LETTER] on computer [DEVICE] is running out of disk space", etc.) originating from the same device together.	|
+|	RS Situation - Device level	|	Alerts with similar names	|	Groups alerts with similar names (ie. "Filesystem Inaccessible", "Network Bonding", "Cluster Service Stopped", etc.) originating from the same device together.	|
+|	RS Situation - Device level	|	Situation for performance and capacity alert per device	|	Groups alerts belonging to the Performance (ie. CPU, Memory, etc.) and/or Capacity (ie. Low Disk, database out of space, etc) classes originating from the same device together.	|
+|	RS Situation - Device level	|	MBU alert grouping	|	Groups Managed Backup alerts originating from the same device together.	|
+|	RS Situation - Device level	|	Remaining identical alerts	|	Alerts meeting no other grouping criteria are collected in Situations of one alert until such a time as further alerts arrive matching another Cookbook Recipe.	|
 
 
 ### Sample Situation ticket
