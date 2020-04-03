@@ -136,16 +136,23 @@ Rackspace Hosting
 
 Updated Message 3:55 PM 
 Hello, Below are the results of our automated diagnostics scripts in response to the "Total CPU Utilization Percentage is too high" alert: Processor Hardware Details: 
+
+|	Description:	|	Value	|
+|-----------|-------------|
 |	Cores Per Processor:	|	1	|
 |	Processor Manufacturer:	|	GenuineIntel	|
 |	Processor Name:	|	Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz	|
 |	Total Number of Processor/s:	|	1	|
 
 Is Server Physical or Virtual: 
+|	Description:	|	Value	|
+|-----------|-------------|
 |	PhysicalorVirtual:	|	Virtual
 |	VirtualType:	|	VMWare
 
 Server Connections: 
+|	Description:	|	Value	|
+|-----------|-------------|
 |	Established:	|	19	|
 |	Close Wait:	|	0	|
 |	Fin wait 2:	|	0	|
@@ -153,7 +160,9 @@ Server Connections:
 
 Top CPU utilizing processes: 
 |	ProcessName	|	%ProcessorTime	|	PID	|
+|-----------|-------------|-------------|
 |	SVCHOST_724	|	99	|	724	|
+
 
 
 The server is responding at this time, no further investigation will be done. If you have any questions, please feel free to contact us at any time.
