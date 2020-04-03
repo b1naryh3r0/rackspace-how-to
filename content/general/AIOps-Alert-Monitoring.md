@@ -158,4 +158,4 @@ Thanks,
 Rackspace Hosting US: 888-480-7640 | UK: +44 (0)20 8734 2700
 
 ### Correlating an alert to a situation
-The alert "SENSOR ID" can used by a Racker to lookup the corrponding situation ticket.
+The alert "SENSOR ID" can used by a Racker to lookup the corrponding situation ticket.The alert "SENSOR ID" can used by a Racker to lookup the corrponding situation ticket.
